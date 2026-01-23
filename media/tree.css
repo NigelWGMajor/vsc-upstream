@@ -88,18 +88,26 @@ body {
     margin-right: 2px;
 }
 
+.expand-icon::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: currentColor;
+    -webkit-mask: url('expand.svg') no-repeat center / contain;
+    mask: url('expand.svg') no-repeat center / contain;
+    transition: transform 0.12s ease;
+}
+
 .expand-icon:hover {
     background-color: var(--vscode-toolbar-hoverBackground);
 }
 
 .expand-icon.collapsed::before {
-    content: '▶';
-    font-size: 10px;
+    transform: rotate(0deg);
 }
 
 .expand-icon.expanded::before {
-    content: '▼';
-    font-size: 10px;
+    transform: rotate(90deg);
 }
 
 .expand-icon.leaf {

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <path d="M 2 2 L 9 2" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 9 2 L 9 9" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 9 9 L 2 9" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2 9 L 2 2" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 4 6 L 5 7" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 7 4 L 5 7" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2 16 L 9 16" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 9 16 L 9 23" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 9 23 L 2 23" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2 16 L 2 23" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1 25 Q 10.125 15.1875 11 14" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1 14 Q 1.5 14.5625 11 25" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 11 4 L 11 7" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 11 7 L 25 7" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 25 7 L 25 4" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 11 4 L 25 4" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 11 18 L 11 21" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 11 18 L 25 18" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 25 18 L 25 21" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 11 21 L 25 21" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

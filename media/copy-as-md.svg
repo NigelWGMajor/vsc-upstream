@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <path d="M 30 2 L 9 2" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 9 2 L 9 23" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 9 23 L 30 23" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 30 23 L 30 2" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 9 9 L 2 9" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2 9 L 2 30" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2 30 L 23 30" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 23 30 L 23 23" fill="none" stroke="#808080" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 12 5 L 12 20" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 12 5 L 19 14" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 19 14 L 26 5" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 26 5 L 26 20" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 27 20 L 27 5" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 13 5 L 13 20" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 13 5 L 20 14" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 20 14 L 27 5" fill="none" stroke="#808080" stroke-width="1.9999999999999996" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

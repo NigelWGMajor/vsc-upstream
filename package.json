@@ -34,27 +34,42 @@
       {
         "command": "nixUpstreamCheck.expandAll",
         "title": "Expand All",
-        "icon": "$(expand-all)"
+        "icon": {
+          "light": "media/expand.svg",
+          "dark": "media/expand.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.clearTree",
         "title": "Clear Tree",
-        "icon": "$(clear-all)"
+        "icon": {
+          "light": "media/clear.svg",
+          "dark": "media/clear.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.exportJson",
         "title": "Save Upstream JSON",
-        "icon": "$(save)"
+        "icon": {
+          "light": "media/save.svg",
+          "dark": "media/save.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.exportMarkdown",
         "title": "Copy as Markdown",
-        "icon": "$(clippy)"
+        "icon": {
+          "light": "media/copy-as-md.svg",
+          "dark": "media/copy-as-md.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.pruneUnchecked",
         "title": "Prune Unchecked Items",
-        "icon": "$(filter)"
+        "icon": {
+          "light": "media/prune-unchecked.svg",
+          "dark": "media/prune-unchecked.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.searchUpstreamFromReference",
@@ -63,17 +78,26 @@
       {
         "command": "nixUpstreamCheck.importJson",
         "title": "Load Upstream JSON",
-        "icon": "$(folder-opened)"
+        "icon": {
+          "light": "media/load.svg",
+          "dark": "media/load.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.insertToUpstreamTree",
         "title": "Insert to Upstream Tree",
-        "icon": "$(add)"
+        "icon": {
+          "light": "media/add.svg",
+          "dark": "media/add.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.removeNode",
         "title": "Remove from Tree",
-        "icon": "$(trash)"
+        "icon": {
+          "light": "media/clear.svg",
+          "dark": "media/clear.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.addCommentAbove",
@@ -90,12 +114,18 @@
       {
         "command": "nixUpstreamCheck.toggleAutoFocus",
         "title": "Toggle Auto-Focus: Currently Enabled (Nested)",
-        "icon": "$(arrow-right)"
+        "icon": {
+          "light": "media/insert-child.svg",
+          "dark": "media/insert-child.svg"
+        }
       },
       {
         "command": "nixUpstreamCheck.toggleAutoFocusOff",
         "title": "Toggle Auto-Focus: Currently Disabled (Sibling)",
-        "icon": "$(arrow-down)"
+        "icon": {
+          "light": "media/insert-sibling.svg",
+          "dark": "media/insert-sibling.svg"
+        }
       }
     ],
     "menus": {
