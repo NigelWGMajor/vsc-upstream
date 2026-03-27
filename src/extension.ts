@@ -1662,11 +1662,15 @@ export function activate(context: vscode.ExtensionContext) {
 
         let markdown = `# Upstream References Report\n\n`;
         markdown += `Generated: ${new Date().toLocaleString()}\n\n`;
-        markdown += `---\n\n`;
 
         trees.forEach((tree: any, index: number) => {
+            // Add separator only if neither current nor previous tree is a comment
+            const currentIsComment = tree.isComment;
+            const previousIsComment = index > 0 && trees[index - 1].isComment;
+            if (index > 0 && !currentIsComment && !previousIsComment) {
+                markdown += `\n---\n\n`;
+            }
             markdown += treeDataProvider.treeToMarkdown(tree, 0, index + 1);
-            markdown += `\n---\n\n`;
         });
 
         // Copy markdown to clipboard

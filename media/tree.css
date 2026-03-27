@@ -90,24 +90,27 @@ body {
 
 .expand-icon::before {
     content: '';
-    width: 12px;
-    height: 12px;
-    background-color: currentColor;
-    -webkit-mask: url('expand.svg') no-repeat center / contain;
-    mask: url('expand.svg') no-repeat center / contain;
+    width: 0;
+    height: 0;
+    border-style: solid;
     transition: transform 0.12s ease;
 }
 
 .expand-icon:hover {
     background-color: var(--vscode-toolbar-hoverBackground);
+    border-radius: 3px;
 }
 
 .expand-icon.collapsed::before {
-    transform: rotate(0deg);
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent currentColor;
+    margin-left: 2px;
 }
 
 .expand-icon.expanded::before {
-    transform: rotate(90deg);
+    border-width: 7px 5px 0 5px;
+    border-color: currentColor transparent transparent transparent;
+    margin-top: 2px;
 }
 
 .expand-icon.leaf {

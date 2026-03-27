@@ -2,7 +2,7 @@
   "name": "nix-upstream-check",
   "displayName": "Nix Upstream Check",
   "description": "Find all upstream references to a C# function and display the call tree.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publisher": "NigelWGMajor",
   "icon": "media/icon.png",
   "license": "MIT",

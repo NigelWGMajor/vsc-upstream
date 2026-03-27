@@ -1078,9 +1078,18 @@ class NixUpstreamTreeWebviewProvider {
         }
         else if (tree.isReference) {
             markdown += `${prefix}- ${checkbox} 📍 ${tree.name}\n`;
+            if (tree.file && tree.line !== undefined) {
+                const linkText = tree.namespace ? `🔗 ${tree.namespace}` : '🔗';
+                markdown += `${prefix}    [${linkText}](${tree.file}#L${tree.line + 1})\n`;
+            }
         }
         else {
-            markdown += `${prefix}- ${checkbox} ${tree.name}\n`;
+            const httpAttr = tree.httpAttribute ? ` [${tree.httpAttribute}]` : '';
+            markdown += `${prefix}- ${checkbox} **${tree.name}**${httpAttr}\n`;
+            if (tree.file && tree.line !== undefined) {
+                const linkText = tree.namespace ? `🔗 ${tree.namespace}` : '🔗';
+                markdown += `${prefix}    [${linkText}](${tree.file}#L${tree.line + 1})\n`;
+            }
         }
         if (tree.referenceLocations) {
             tree.referenceLocations.forEach((ref) => {
